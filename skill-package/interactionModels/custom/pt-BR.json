@@ -1,0 +1,49 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "assistente de deploy",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "fechar",
+            "fechar meu deploy",
+            "sair"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "você pode me ajudar",
+            "ajuda",
+            "como funciona",
+            "como usar"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "parar"
+          ]
+        },
+        {
+          "name": "ShouldIDeployIntent",
+          "slots": [],
+          "samples": [
+            "posso fazer deploy hoje",
+            "posso fazer deploy",
+            "quero fazer deploy",
+            "mas eu gostaria de fazer o deploy",
+            "e se eu quizer fazer deploy"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "1"
+}

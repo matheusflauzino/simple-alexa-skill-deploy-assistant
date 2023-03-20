@@ -1,0 +1,36 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:<your_server>"
+        },
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:<your_server>"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:<your_server>"
+
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:<your_server>"
+            }
+          }
+        }
+      }
+    },
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "name": "Assistente de Deploy"
+        }
+      }
+    }
+  }
+}
